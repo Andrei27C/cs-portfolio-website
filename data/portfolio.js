@@ -61,8 +61,9 @@ const projects = [
     // sourceCode: 'https://github.com',
     livePreview: 'https://2023.defineschool.ro/',
   },
+
   {
-    thumbnail: 'images/placeholder-image.jpeg',
+    thumbnail: 'images/logo-dialum-nobg-trimmed.png',
     name: 'Software Engineer & Business Analyst  at www.dialum.ro',
     date: 'November 2022 - Present',
     description: [
@@ -75,33 +76,47 @@ const projects = [
     // sourceCode: 'https://github.com',
     livePreview: 'https://www.dialum.ro/',
   },
+
+  {
+    // thumbnail: 'images/logo-dialum-nobg-trimmed.png',
+    name: 'Electric Vehicle Sharing DApp',
+    subtitle: 'Diploma Project',
+    description: [
+      'Electric Vehicle Sharing mobile app based on Blockchain (NodeJS, React-Native, Solidity, Truffle)',
+    ],
+    stack: ['NodeJS', 'React-Native', 'Solidity', 'Truffle'],
+    sourceCode: 'https://github.com/Andrei27C/electric-vehicle-sharing',
+    // livePreview: 'https://www.dialum.ro/',
+  },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'Java',
+  'Spring Boot',
+  'Swing',
   'C',
   'Solidity',
   'Truffle',
   'Blockchain',
-  'Git',
-  'SASS',
-  'OOP',
-  'MVC',
-  'MVVM',
-  'Spring Boot',
-  'Jira',
   'Node.js',
   'React',
-  'Vercel',
   'NextJS',
+  'React-Native',
+  'Vercel',
+  'Jira',
   'Growth Acceleration',
   'Competitive Analysis',
   'Market Research & Analysis',
   'Business Development & Analysis',
   'Startup Development',
   'Stakeholder Engagement',
+  'Git',
+  'SASS',
+  'OOP',
+  'MVC',
+  'MVVM',
 ]
 
 const contact = {
