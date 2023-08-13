@@ -14,14 +14,14 @@ const About = () => {
       <div className='about__pseudo-padding about__pseudo-padding-top' />
 
       {firstName && (
-        <h1 className='about__greeting animate__animated animate__fadeInUp animate__delay-1s'>
+        <h1 className='about__greeting animate__animated animate__fadeInUp animate__delay-30ms'>
           Hey, I&apos;m <span className='text--strong'>{firstName}</span>.
           {greetingEmoji && <span> {greetingEmoji}</span>}
         </h1>
       )}
 
       {role && (
-        <h1 className='about__role animate__animated animate__fadeInUp animate__delay-3s'>
+        <h1 className='about__role animate__animated animate__fadeInUp animate__delay-1s'>
           I&apos;m a {role}
           {company && (
             <span>
@@ -33,7 +33,7 @@ const About = () => {
         </h1>
       )}
 
-      <div className='animate__animated animate__fadeIn animate__delay-5s'>
+      <div className='animate__animated animate__fadeIn animate__delay-2s'>
         {description && (
           <div className='about__desc paragraph__list'>
             <Hyphenated>
