@@ -19,7 +19,8 @@
   height: 150px;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
-  object-fit: cover;
+  object-fit: scale-down;
+  display: block;
 }
 
 .project__description {

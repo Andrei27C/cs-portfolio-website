@@ -14,11 +14,14 @@ const ProjectCard = ({ project }) => (
       )}
 
       {project.name && <h3>{project.name}</h3>}
+      {project.date && <h5>{project.date}</h5>}
+      {project.subtitle && <h5>{project.subtitle}</h5>}
+
 
       {project.description && (
         <div className='project__description paragraph__list'>
           {project.description.map((item) => (
-            <p key={uniqid()}>{item}</p>
+            <ul key={uniqid()}>{item}</ul>
           ))}
         </div>
       )}
