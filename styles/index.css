@@ -31,11 +31,11 @@ body {
 }
 
 .dark {
-  --clr-bg: #03001C;
-  --clr-bg-alt: #180f34;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-bg: #222831;
+  --clr-bg-alt: #393E46;
+  --clr-fg: #ffffff;
+  --clr-fg-alt: #ffd700;
+  --clr-primary: #eeeeee;
   --shadow: rgba(255, 255, 255, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
