@@ -25,7 +25,7 @@ const projects = [
     date: 'May 2022 - August 2023',
     description: [
       'Collaborated with 3 cross-functional, multi-functional teams and 3 stakeholders.',
-      'Solved critical bugs helping over 10+ big customers.',
+      'Solved critical bugs helping over 10 big customers.',
       'Reduced the loading time and servers latency by identifying useless API calls who remained in the early development process of the app.',
       'Streamlined the user work by providing insightful information when needed.',
     ],
