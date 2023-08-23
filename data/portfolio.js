@@ -54,7 +54,8 @@ const projects = [
     name: 'Software Engineer & Business Analyst at #defineSchool',
     date: 'June 2023 - August 2023',
     description: [
-      'Altered the website’s structure to guide users into paying for the bootcamp. Gathered 5 customers in short time\n' +
+      'Altered the website’s structure to guide users into paying for the bootcamp.\n' +
+      'Gathered 5 customers in short time\n' +
       'after publishing and looking into reaching the 15 goal.',
     ],
     stack: ['Business Analysis', 'Business Strategy', 'Google Analytics', 'Microsoft Clarity', 'Divi'],
