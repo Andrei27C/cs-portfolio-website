@@ -7,7 +7,7 @@ const about = {
   description: [
     '',
   ],
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/12Cs2BCxclZiHKtS5voqzoQbB9019WiAx/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/andrei27/',
     github: 'https://github.com/Andrei27C',
