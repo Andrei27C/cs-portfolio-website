@@ -87,7 +87,7 @@ const About = () => {
       </div>
       <div className='about__pseudo-padding' />
 
-      <section id="section07" className="scroll-down">
+      <section id="section07" className="scroll-down animate__animated animate__fadeIn animate__delay-2s">
         <a href="#projects"><span></span><span></span><span></span></a>
       </section>
 
