@@ -85,8 +85,12 @@ const About = () => {
           )}
         </div>
       </div>
-
       <div className='about__pseudo-padding' />
+
+      <section id="section07" className="scroll-down">
+        <a href="#projects"><span></span><span></span><span></span></a>
+      </section>
+
     </div>
   )
 }

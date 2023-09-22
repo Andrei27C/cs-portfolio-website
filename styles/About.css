@@ -42,3 +42,54 @@
     min-height: 3rem;
   }
 }
+
+
+
+
+.scroll-down {
+  margin: 20px 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.scroll-down span {
+  position: absolute;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-bottom: 3px solid currentColor; /* increased thickness for visibility */
+  border-right: 3px solid currentColor;  /* increased thickness for visibility */
+  transform: rotate(45deg);
+  animation: scrollDown 2s infinite;
+  opacity: 0.7;  /* for a softer appearance */
+}
+
+.scroll-down span:nth-child(2) {
+  top: 10px;
+  animation-delay: 0.3s;
+}
+
+.scroll-down span:nth-child(3) {
+  top: 20px;
+  animation-delay: 0.6s;
+}
+
+@keyframes scrollDown {
+  0%, 20%, 50%, 80%, 100% {
+    opacity: 0.7;
+    transform: rotate(45deg) translateY(0);
+  }
+  40% {
+    opacity: 1;  /* make it fully visible at the peak of bounce */
+    transform: rotate(45deg) translateY(-10px);
+  }
+  60% {
+    opacity: 0.85;  /* slightly less visible after bounce */
+    transform: rotate(45deg) translateY(-5px);
+  }
+}
