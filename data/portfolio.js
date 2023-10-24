@@ -2,7 +2,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   // each element in the description array is a paragraph
   name: 'Andrei Csatlos',
-  role: 'Smart Contract Developer',
+  role: 'Smart Contract Engineer',
   company: 'LendeXe Finance',
   description: [
     '',
