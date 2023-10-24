@@ -7,7 +7,7 @@ const about = {
   description: [
     '',
   ],
-  resume: 'https://drive.google.com/file/d/1H5PqV-DpI2DMfY0_T7uanfwk5DHHQH5E/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/11RpfhhV-sOPrSXc_lrdb2--8AmHhRnfv/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/andrei27/',
     github: 'https://github.com/Andrei27C',
@@ -20,16 +20,31 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
-    thumbnail: 'images/smartbear-logo.png',
-    name: 'Software Engineer at Waverley Software\n',
-    date: 'May 2022 - August 2023',
+    thumbnail: 'images/Logo-LendeXe.svg',
+    name: 'Smart Contract Engineer at LendeXe Finance\n',
+    date: 'August 2023 - Present',
     description: [
-      'Collaborated with 3 cross-functional, multi-functional teams and 3 stakeholders.',
-      'Solved critical bugs helping over 10 big customers.',
-      'Reduced the loading time and servers latency by identifying useless API calls who remained in the early development process of the app.',
+      'Increased transparency for developers by restructuring the development process.',
+      'Working on protocol, front-end and api parts of the project.',
+      'Saved company’s and user’s money in the long run by identifying and solving a problem with decimal mismatch in the blockchain contracts of the application.',
       'Streamlined the user work by providing insightful information when needed.',
     ],
-    stack: ['Java', 'Swing', 'Stakeholder Engagement', 'Agile', 'Jira', 'Git'],
+    stack: ['Solidity', 'Hardhat', 'Truffle', 'Node.js', 'TypeScript', 'MongoDB'],
+    // sourceCode: 'https://github.com',
+    // livePreview: 'https://github.com',
+  },
+
+  {
+    thumbnail: 'images/smartbear-logo.png',
+    name: 'Software Engineer at Smartbear\n',
+    date: 'May 2022 - August 2023',
+    description: [
+      'Collaborated with 5 cross-functional, multi-disciplinary teams for ReadyAPI.',
+      'Solved critical bugs helping over 10 big customers.',
+      'Conducted 1 on 1 meetings with stakeholders.',
+      'Reduced the loading time and servers latency by identifying useless API calls.',
+    ],
+    stack: ['Java', 'Spring Boot', 'Swing', 'Swagger', 'Stakeholder Engagement', 'Agile', 'Jira', 'Git'],
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
   },
@@ -39,10 +54,11 @@ const projects = [
     name: 'Co-founder of www.ideafy.org',
     subtitle: 'NGOs and large Companies bridging platform',
     description: [
-      'Developed business and market analysis strategies, participating in 3 contests',
-      'Presented the concept to 20+ companies at 3 big tech conferences (Techsylvania, Innovation Labs, FIX Cluj) and guided the business development by discovering their needs and pains.',
-      'Gained the trust of 7 companies',
-      'Gained experience working with JavaScript (NextJS) and Vercel in building the website.'
+      'Provided ESG expertise to companies and connected them with NGOs.',
+      'Launched MVP in under 1 month using Next.js, deployed with Vercel.',
+      'Won several contests. (Innovation Labs, FIX Cluj).',
+      'Presented the concept to 20+ companies at Techsylvania tech conference, connecting 7 companies and 12 NGOs.',
+      'Had trainings from big companies on Business Analysis and Strategy, Market Analysis and Stakeholder Engagement.'
     ],
     stack: ['Startup Development', 'Business Analysis', 'Business Strategy',  'Competitive Analysis', 'Stakeholder Engagement', 'Market Analysis', 'JavaScript', 'Next.js', 'Vercel'],
     // sourceCode: 'https://github.com',
@@ -54,9 +70,7 @@ const projects = [
     name: 'Software Engineer & Business Analyst at #defineSchool',
     date: 'June 2023 - August 2023',
     description: [
-      'Altered the website’s structure to guide users into paying for the bootcamp.\n' +
-      'Gathered 5 customers in short time\n' +
-      'after publishing and looking into reaching the 15 goal.',
+      'Built website, resulting in a 40% surge in web traffic. Applied SEO practices to optimise client conversion, onboarding 8 new participants. \n',
     ],
     stack: ['Business Analysis', 'Business Strategy', 'Google Analytics', 'Microsoft Clarity', 'Divi'],
     // sourceCode: 'https://github.com',
@@ -69,7 +83,7 @@ const projects = [
     date: 'November 2022 - Present',
     description: [
       'Building a e-commerce platform tailored for a local gutter systems company.',
-      'Transitioned financing and paperwork digitally, reducing 1 man power.',
+      'Transitioned financing and paperwork digitally, reducing 2 man power.',
       'Led the business development efforts by offering strategic business consultation.',
       '--The website is still in construction--',
     ],
