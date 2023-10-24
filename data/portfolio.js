@@ -94,12 +94,12 @@ const projects = [
 
   {
     // thumbnail: 'images/logo-dialum-nobg-trimmed.png',
-    name: 'Electric Vehicle Sharing DApp',
+    name: 'Electric Vehicle Sharing dApp',
     subtitle: 'Diploma Project',
     description: [
-      'Electric Vehicle Sharing mobile app based on Blockchain (NodeJS, React-Native, Solidity, Truffle)',
+      'Developed a decentralized secure application for electric vehicle sharing, leveraging blockchain technology to ensure secure, transparent, and efficient operations. This innovation modernized the vehicle sharing landscape by utilizing the distinctive strengths of blockchain.',
     ],
-    stack: ['NodeJS', 'React-Native', 'Solidity', 'Truffle'],
+    stack: ['Node.js', 'React-Native', 'Solidity', 'Truffle'],
     sourceCode: 'https://github.com/Andrei27C/electric-vehicle-sharing',
     // livePreview: 'https://www.dialum.ro/',
   },
