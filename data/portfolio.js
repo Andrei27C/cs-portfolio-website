@@ -24,12 +24,11 @@ const projects = [
     name: 'Smart Contract Engineer at LendeXe Finance\n',
     date: 'August 2023 - Present',
     description: [
-      'Increased transparency for developers by restructuring the development process.',
-      'Working on protocol, front-end and api parts of the project.',
-      'Saved company’s and user’s money in the long run by identifying and solving a problem with decimal mismatch in the blockchain contracts of the application.',
-      'Streamlined the user work by providing insightful information when needed.',
+      'Rebuilt development process, boosting developer transparency and enhancing workflow efficiency by 30%.',
+      'Devised a scalable repayment framework that successfully addressed the issues of remainder accumulation from decimal mismatch, improving precision and customer satisfaction by 40%.',
+      'Enhanced the precision of lending calculations by expanding the decimal handling capacity from 8 to 18 places drastically reducing rounding errors and potential financial discrepancies in high-volume transactions.',
     ],
-    stack: ['Solidity', 'Hardhat', 'Truffle', 'Node.js', 'TypeScript', 'MongoDB'],
+    stack: ['Solidity', 'Hardhat', 'Mocha', 'Chai', 'Truffle', 'Node.js', 'TypeScript', 'MongoDB'],
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
   },
@@ -56,11 +55,11 @@ const projects = [
     description: [
       'Provided ESG expertise to companies and connected them with NGOs.',
       'Launched MVP in under 1 month using Next.js, deployed with Vercel.',
-      'Won several contests. (Innovation Labs, FIX Cluj).',
+      'Won 2 big contests. (Innovation Labs, FIX Cluj).',
       'Presented the concept to 20+ companies at Techsylvania tech conference, connecting 7 companies and 12 NGOs.',
-      'Had trainings from big companies on Business Analysis and Strategy, Market Analysis and Stakeholder Engagement.'
+      'Completed specialized training in Business Analysis, Market Analysis, and Stakeholder Engagement from top industry firms, enhancing skills in predicting market trends and making strategic decisions.'
     ],
-    stack: ['Startup Development', 'Business Analysis', 'Business Strategy',  'Competitive Analysis', 'Stakeholder Engagement', 'Market Analysis', 'JavaScript', 'Next.js', 'Vercel'],
+    stack: ['JavaScript', 'Next.js', 'Vercel', 'Startup Development', 'Business Analysis', 'Business Strategy',  'Competitive Analysis', 'Stakeholder Engagement', 'Market Analysis'],
     // sourceCode: 'https://github.com',
     livePreview: 'https://www.ideafy.org/',
   },
@@ -70,7 +69,8 @@ const projects = [
     name: 'Software Engineer & Business Analyst at #defineSchool',
     date: 'June 2023 - August 2023',
     description: [
-      'Built website, resulting in a 40% surge in web traffic. Applied SEO practices to optimise client conversion, onboarding 8 new participants. \n',
+      'Built website, resulting in a 40% surge in web traffic. Applied SEO practices to optimise client conversion, onboarding 8 new participants.',
+      'Also provided Business Strategies and Analysis',
     ],
     stack: ['Business Analysis', 'Business Strategy', 'Google Analytics', 'Microsoft Clarity', 'Divi'],
     // sourceCode: 'https://github.com',
@@ -82,12 +82,12 @@ const projects = [
     name: 'Software Engineer & Business Analyst  at www.dialum.ro',
     date: 'November 2022 - Present',
     description: [
-      'Building a e-commerce platform tailored for a local gutter systems company.',
+      'Building an e-commerce platform tailored for a local gutter systems company.',
       'Transitioned financing and paperwork digitally, reducing 2 man power.',
       'Led the business development efforts by offering strategic business consultation.',
       '--The website is still in construction--',
     ],
-    stack: ['Business Analysis', 'Business Strategy', 'Marketing', 'Business Relations'],
+    stack: ['React', 'Business Analysis', 'Business Strategy', 'Marketing', 'Business Relations'],
     // sourceCode: 'https://github.com',
     livePreview: 'https://www.dialum.ro/',
   },
@@ -108,17 +108,30 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'Node.js',
+  'React',
+  'React-Native',
+  'Next.js',
+  'TypeScript',
+
   'Java',
   'Spring Boot',
   'Swing',
-  'C',
+
   'Solidity',
+  'Hardhat',
+  'Mocha',
+  'Chai',
   'Truffle',
   'Blockchain',
-  'Node.js',
-  'React',
-  'NextJS',
-  'React-Native',
+
+  'C/C++',
+
+  'SQL',
+  'MongoDB',
+
+  'AWS',
+  'Docker',
   'Vercel',
   'Jira',
   'Growth Acceleration',
@@ -127,6 +140,7 @@ const skills = [
   'Business Development & Analysis',
   'Startup Development',
   'Stakeholder Engagement',
+
   'Git',
   'SASS',
   'OOP',
