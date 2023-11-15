@@ -6,7 +6,7 @@ const Contact = () => {
 
   return (
     <section className='section contact center' id='contact'>
-      <Spacer height={2} />
+      <Spacer height={1} />
       <h2 className='section__title'>Contact</h2>
       <a href={`mailto:${contact.email}`} target='_blank' rel='noreferrer'>
         <span type='button' className='btn btn--outline'>
