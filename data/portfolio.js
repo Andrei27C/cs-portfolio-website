@@ -2,12 +2,12 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   // each element in the description array is a paragraph
   name: 'Andrei Csatlos',
-  role: 'Smart Contract Engineer',
-  company: 'LendeXe Finance',
+  role: 'Technical Lead',
+  company: 'ATLAS ANALYTICS',
   description: [
     '',
   ],
-  resume: 'https://drive.google.com/file/d/11RpfhhV-sOPrSXc_lrdb2--8AmHhRnfv/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1YsZgmipUky4nPCOeadGXqLhMg49rlFSc/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/andrei27/',
     github: 'https://github.com/Andrei27C',
@@ -20,9 +20,24 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
+    thumbnail: 'images/ATLAS_black-removebg-preview.png',
+    name: 'Technical Lead at ATLAS ANALYTICS\n',
+    date: 'Jan 2024 - Present',
+    description: [
+      '𝐑𝐞𝐛𝐮𝐢𝐥𝐭 and 𝐥𝐞𝐝 the development of 𝐒𝐚𝐥𝐞𝐬𝐎𝐒 from scratch, managing both frontend and backend.',
+      'Implemented 𝐀𝐈-driven solutions to enhance user productivity and eﬃciency, including automatic AI custom outreach, email content extraction, and automatic email replies based on categories of the emails.',
+      'Started managing the parallel development of multiple apps, constantly integrating advanced AI technologies to improve user experience.',
+      'Mentored team members, promoting best practices in coding, architecture, and problem-solving.',
+      'Continuously explored and integrated advanced development platforms to accelerate app development processes. Also got pretty familiar with AWS S3, EC2, Lambda Functions and MediaConvert.',
+    ],
+    stack: ['Solidity', 'Hardhat', 'Mocha', 'Chai', 'Truffle', 'Node.js', 'TypeScript', 'MongoDB'],
+    // sourceCode: 'https://github.com',
+    // livePreview: 'https://github.com',
+  },
+  {
     thumbnail: 'images/Logo-LendeXe.svg',
     name: 'Smart Contract Engineer at LendeXe Finance\n',
-    date: 'August 2023 - Present',
+    date: 'August 2023 - Jan 2024',
     description: [
       'Rebuilt development process, boosting developer transparency and enhancing workflow efficiency by 30%.',
       'Devised a scalable repayment framework that successfully addressed the issues of remainder accumulation from decimal mismatch, improving precision and customer satisfaction by 40%.',
